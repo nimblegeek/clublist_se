@@ -12,4 +12,6 @@ html {
 
 .grid-item {
   /* Styling for items */
+  border: 1px solid #ccc;
+  padding: 20px;
 }
