@@ -2,3 +2,14 @@ html {
   height: 100%;
   width: 100%;
 }
+
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  /* Example setup */
+  gap: 20px;
+}
+
+.grid-item {
+  /* Styling for items */
+}
